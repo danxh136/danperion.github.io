@@ -18,30 +18,28 @@
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : https://kitian616.github.io
-baseurl : /jekyll-TeXt-theme
-title   : TeXt Theme
+url     : https://danperion.asia
+baseurl :
+title   : 单小航的个人简历
 description: >
-  A super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc.
+  单小航的在线简历
 
 
 ## => Language and Timezone
 ##############################
-lang: en # the language of your site, default as "en"
+lang: zh-Hans # the language of your site, default as "en"
 timezone: Asia/Shanghai
 
 
 ## => Author and Social
 ##############################
 author:
-  type      : organization # "person" (default), "organization"
-  name      : TeXt
-  url       :
-  avatar    : /assets/apple-touch-icon.png
-  bio: >
-    TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc.
-    Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
-  email     : kitian616@outlook.com
+  type      : person # "person" (default), "organization"
+  name      : 单小航
+  url       : https://danperion.asia
+  avatar    :
+  bio       : 成都信息工程大学信息与计算科学本科在读，方向为算法与数据分析。
+  email     : 1900617693@qq.com
   facebook  :
   twitter   : kitian616
   weibo     : 234695683
@@ -57,7 +55,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: kitian616/jekyll-TeXt-theme
+repository: danperion/danperion.github.io
 repository_tree: master
 
 
@@ -65,7 +63,7 @@ repository_tree: master
 ##############################
 paths:
   root    : # title link url, "/" (default)
-  home    : /test/ # home layout url, "/" (default)
+  home    : / # home layout url, "/" (default)
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
 
@@ -98,8 +96,8 @@ chart: true # false (default), true
 
 ## => Paginate
 ##############################
-paginate: 8
-paginate_path: /test/page:num # don't change this unless for special need
+paginate: 0
+paginate_path: /page:num # don't change this unless for special need
 
 
 ## => Sources
@@ -204,7 +202,6 @@ exclude:
   # - /test
   - /vendor
   - /_posts
-  - /index.html
 
 collections_dir: docs
 collections:
